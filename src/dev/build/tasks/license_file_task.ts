@@ -36,7 +36,7 @@ export const UpdateLicenseFile: Task = {
     log.info('Copying Apache 2.0 license to LICENSE.txt');
     await write(
       build.resolvePath('LICENSE.txt'),
-      await read(config.resolveFromRepo('licenses/APACHE-LICENSE-2.0.txt'))
+      await read(config.resolveFromRepo('licenses/ELIATRA-LICENSE.txt'))
     );
   },
 };
