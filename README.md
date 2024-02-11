@@ -1,39 +1,21 @@
-<img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_darkmode.svg" height="64px"/>
+# Eliatra OpenSearch Enterprise Distro (EOED) - Long Term Support for OpenSearch
 
-- [Welcome!](#welcome)
-- [Project Resources](#project-resources)
-- [Code of Conduct](#code-of-conduct)
-- [License](#license)
-- [Copyright](#copyright)
+This repository is part of the Eliatra OpenSearch Enterprise Distro (EOED).
 
-## Welcome
+## Questions?
 
-OpenSearch Dashboards is an open source search and analytics visualization. We aim to to be the best community-driven platform and provide all the contributors a great open source experience.
-
-Feel free to take a look at what the community has been up to, and then head over to the [Project Board](https://github.com/opensearch-project/OpenSearch-Dashboards/projects) to track release targets, or jump in and [start opening issues](https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose), [set up your development environment](DEVELOPER_GUIDE.md#getting-started), or [start contributing](CONTRIBUTING.md).
-
-## Project Resources
-
-* [Project Website](https://opensearch.org/)
-* [Downloads](https://opensearch.org/downloads.html)
-* [Documentation](https://opensearch.org/docs/)
-* Need help? Try [Forums](https://discuss.opendistrocommunity.dev/)
-* [Project Principles](https://opensearch.org/#principles)
-* [Developer Guide](DEVELOPER_GUIDE.md)
-* [Contributing to OpenSearch](CONTRIBUTING.md)
-* [Maintainer Responsibilities](MAINTAINERS.md)
-* [Release Management](RELEASING.md)
-* [Testing](TESTING.md)
-* [Security](SECURITY.md)
-
-## Code of Conduct
-
-This project has adopted the [Amazon Open Source Code of Conduct](CODE_OF_CONDUCT.md). For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq), or contact [opensource-codeofconduct@amazon.com](mailto:opensource-codeofconduct@amazon.com) with any additional questions or comments.
+Please refer to https://eliatra.com/opensearch-enterprise-distro or ask your questions in our [Forum](https://forum.eliatra.com).
 
 ## License
 
-This project is licensed under the [Apache v2.0 License](LICENSE.txt).
+This project is licensed under a [commercial License](LICENSE.txt).
 
 ## Copyright
 
-Copyright OpenSearch Contributors. See [NOTICE](NOTICE.txt) for details.
+Copyright Eliatra. See [NOTICE](NOTICE.txt) for details.
+
+## Trademark
+
+OpenSearch is a registered trademark of Amazon Web Services.
+
+OpenSearch includes certain Apache-licensed Elasticsearch code from Elasticsearch B.V. and other source code. Elasticsearch B.V. is not the source of that other source code. ELASTICSEARCH is a registered trademark of Elasticsearch B.V.

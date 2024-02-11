@@ -39,7 +39,7 @@ export const CreateNoticeFile: Task = {
     log.info('Generating notice from source');
     log.indent(4);
     const noticeFromSource = await generateNoticeFromSource({
-      productName: 'OpenSearch (https://opensearch.org/)',
+      productName: 'Eliatra OpenSearch Enterprise Distro (https://eliatra.com/)',
       directory: build.resolvePath(),
       log,
     });
