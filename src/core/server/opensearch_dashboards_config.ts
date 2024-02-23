@@ -81,7 +81,7 @@ export const config = {
         defaultValue: '/',
       }),
       applicationTitle: schema.string({
-        defaultValue: '',
+        defaultValue: 'Eliatra OpenSearch Enterprise Distro',
       }),
     }),
   }),
