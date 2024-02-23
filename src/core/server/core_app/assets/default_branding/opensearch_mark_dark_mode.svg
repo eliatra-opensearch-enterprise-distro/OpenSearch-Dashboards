@@ -27,7 +27,7 @@
  GitHub history for details.
  -->
 
-<svg id="uuid-847b4ea8-5858-4efd-95c4-29889bd545d2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
    <path d="M19.97,20v20c0,6.63,5.36,12,11.96,12h19.93v8h-19.93c-11.01,0-19.93-8.95-19.93-20v-20h7.97Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
    <path d="M19.97,4v24h-7.97V4h7.97Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
    <path d="M27.95,4h3.98c11.01,0,19.93,8.95,19.93,20v12H12v-8s31.9,0,31.9,0v-4c0-6.63-5.36-12-11.96-12h-3.98v-8Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />

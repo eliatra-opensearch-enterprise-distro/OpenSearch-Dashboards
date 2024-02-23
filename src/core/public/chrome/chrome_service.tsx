@@ -247,7 +247,7 @@ export class ChromeService {
           basePath={http.basePath}
           breadcrumbs$={breadcrumbs$.pipe(takeUntil(this.stop$))}
           customNavLink$={customNavLink$.pipe(takeUntil(this.stop$))}
-          opensearchDashboardsDocLink={docLinks.links.opensearchDashboards.introduction}
+          opensearchDashboardsDocLink="https://www.eliatra.com"
           forceAppSwitcherNavigation$={navLinks.getForceAppSwitcherNavigation$()}
           helpExtension$={helpExtension$.pipe(takeUntil(this.stop$))}
           helpSupportUrl$={helpSupportUrl$.pipe(takeUntil(this.stop$))}

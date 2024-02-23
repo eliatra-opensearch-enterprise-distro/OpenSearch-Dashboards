@@ -30,7 +30,6 @@
  * GitHub history for details.
  */
 
-export const OPENSEARCH_DASHBOARDS_FEEDBACK_LINK = 'https://github.com/opensearch-project';
-export const OPENSEARCH_DASHBOARDS_ASK_OPENSEARCH_LINK = 'https://github.com/opensearch-project';
-export const GITHUB_CREATE_ISSUE_LINK =
-  'https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose';
+export const OPENSEARCH_DASHBOARDS_FEEDBACK_LINK = 'https://www.eliatra.com';
+export const OPENSEARCH_DASHBOARDS_ASK_OPENSEARCH_LINK = 'https://www.eliatra.com';
+export const GITHUB_CREATE_ISSUE_LINK = 'https://www.eliatra.com';
