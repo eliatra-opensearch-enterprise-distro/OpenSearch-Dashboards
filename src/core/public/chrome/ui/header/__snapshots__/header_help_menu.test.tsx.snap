@@ -1828,7 +1828,7 @@ exports[`Header help menu hides survey link 1`] = `
                         />
                         <a
                           class="euiButtonEmpty euiButtonEmpty--primary euiButtonEmpty--xSmall euiButtonEmpty--flushLeft"
-                          href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+                          href="https://www.eliatra.com"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -2092,14 +2092,14 @@ exports[`Header help menu hides survey link 1`] = `
                           </EuiSpacer>
                           <EuiButtonEmpty
                             flush="left"
-                            href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+                            href="https://www.eliatra.com"
                             iconType="logoGithub"
                             size="xs"
                             target="_blank"
                           >
                             <a
                               className="euiButtonEmpty euiButtonEmpty--primary euiButtonEmpty--xSmall euiButtonEmpty--flushLeft"
-                              href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+                              href="https://www.eliatra.com"
                               rel="noopener noreferrer"
                               target="_blank"
                             >
@@ -4008,7 +4008,7 @@ exports[`Header help menu renders survey link 1`] = `
                         />
                         <a
                           class="euiButtonEmpty euiButtonEmpty--primary euiButtonEmpty--xSmall euiButtonEmpty--flushLeft"
-                          href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+                          href="https://www.eliatra.com"
                           rel="noopener noreferrer"
                           target="_blank"
                         >
@@ -4321,14 +4321,14 @@ exports[`Header help menu renders survey link 1`] = `
                           </EuiSpacer>
                           <EuiButtonEmpty
                             flush="left"
-                            href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+                            href="https://www.eliatra.com"
                             iconType="logoGithub"
                             size="xs"
                             target="_blank"
                           >
                             <a
                               className="euiButtonEmpty euiButtonEmpty--primary euiButtonEmpty--xSmall euiButtonEmpty--flushLeft"
-                              href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+                              href="https://www.eliatra.com"
                               rel="noopener noreferrer"
                               target="_blank"
                             >

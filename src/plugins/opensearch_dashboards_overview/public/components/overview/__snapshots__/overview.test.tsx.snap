@@ -139,7 +139,7 @@ exports[`Overview renders with solutions and features 1`] = `
     showIcon={true}
     title={
       <FormattedMessage
-        defaultMessage="OpenSearch Dashboards"
+        defaultMessage="Eliatra OpenSearch Enterprise Distro"
         id="opensearchDashboardsOverview.header.title"
         values={Object {}}
       />
@@ -624,7 +624,7 @@ exports[`Overview renders with solutions and without features 1`] = `
     showIcon={true}
     title={
       <FormattedMessage
-        defaultMessage="OpenSearch Dashboards"
+        defaultMessage="Eliatra OpenSearch Enterprise Distro"
         id="opensearchDashboardsOverview.header.title"
         values={Object {}}
       />
@@ -1109,7 +1109,7 @@ exports[`Overview renders without solutions and with features 1`] = `
     showIcon={true}
     title={
       <FormattedMessage
-        defaultMessage="OpenSearch Dashboards"
+        defaultMessage="Eliatra OpenSearch Enterprise Distro"
         id="opensearchDashboardsOverview.header.title"
         values={Object {}}
       />
