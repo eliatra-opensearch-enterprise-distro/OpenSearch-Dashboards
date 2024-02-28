@@ -344,8 +344,7 @@ export class DocLinksService {
           dateMath: `${OPENSEARCH_VERSIONED_DOCS}supported-field-types/date/#date-math`,
         },
         opensearchDashboards: {
-          // https://opensearch.org/docs/latest/dashboards/index/
-          introduction: `${OPENSEARCH_DASHBOARDS_VERSIONED_DOCS}index/`,
+          introduction: 'https://www.eliatra.com',
           installation: {
             // https://opensearch.org/docs/latest/dashboards/install/index/
             base: `${OPENSEARCH_DASHBOARDS_VERSIONED_DOCS}install/index/`,
