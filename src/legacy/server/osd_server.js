@@ -150,6 +150,11 @@ export default class OsdServer {
       }`
     );
 
+    server.log(
+      ['info'],
+      'Eliatra OpenSearch Enterprise Distro (https://eliatra.com/opensearch-enterprise-distro)'
+    );
+
     return server;
   }
 
