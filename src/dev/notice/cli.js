@@ -80,7 +80,7 @@ if (opts.help) {
 (async function run() {
   const path = resolve(REPO_ROOT, 'NOTICE.txt');
   const newContent = await generateNoticeFromSource({
-    productName: 'OpenSearch (https://opensearch.org/)',
+    productName: 'Copyright Eliatra',
     directory: REPO_ROOT,
     log,
   });
