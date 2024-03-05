@@ -148,6 +148,8 @@ export default class OsdServer {
       }`
     );
 
+    server.log(['info'], 'Eliatra OpenSearch Distro (https://eliatra.com/opensearch-distro)');
+
     return server;
   }
 
