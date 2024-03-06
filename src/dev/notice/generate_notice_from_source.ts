@@ -35,9 +35,7 @@ import { ToolingLog } from '@osd/dev-utils';
 
 const NOTICE_COMMENT_RE = /\/\*[\s\n\*]*@notice([\w\W]+?)\*\//g;
 const NEWLINE_RE = /\r?\n/g;
-const NOTICE_TEXT = `Copyright Eliatra
-
-This product includes software developed by Amazon.com, Inc.
+const NOTICE_TEXT = `This product includes software developed by Amazon.com, Inc.
 (https://opensearch.org/)
 
 This product includes software developed by
