@@ -201,14 +201,14 @@ export class HttpService
       method: '*',
       handler: (req, responseToolkit) => {
         this.log.debug(
-          `Eliatra OpenSearch Enterprise Distro server is not ready yet ${req.method}:${req.url.href}.`
+          `Eliatra OpenSearch Distro server is not ready yet ${req.method}:${req.url.href}.`
         );
 
         // If server is not ready yet, because plugins or core can perform
         // long running tasks (build assets, saved objects migrations etc.)
         // we should let client know that and ask to retry after 30 seconds.
         return responseToolkit
-          .response('Eliatra OpenSearch Enterprise Distro server is not ready yet')
+          .response('Eliatra OpenSearch Distro server is not ready yet')
           .code(503)
           .header('Retry-After', '30');
       },

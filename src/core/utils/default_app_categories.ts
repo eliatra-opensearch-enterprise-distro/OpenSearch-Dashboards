@@ -38,7 +38,7 @@ export const DEFAULT_APP_CATEGORIES: Record<string, AppCategory> = Object.freeze
   opensearchDashboards: {
     id: 'opensearchDashboards',
     label: i18n.translate('core.ui.opensearchDashboardsNavList.label', {
-      defaultMessage: 'Eliatra OpenSearch Enterprise Distro',
+      defaultMessage: 'Eliatra OpenSearch Distro',
     }),
     euiIconType: 'inputOutput',
     order: 1000,
