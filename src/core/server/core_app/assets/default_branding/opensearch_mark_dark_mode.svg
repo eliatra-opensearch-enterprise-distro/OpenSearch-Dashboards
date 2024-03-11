@@ -27,8 +27,9 @@
  GitHub history for details.
  -->
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-   <path d="M19.97,20v20c0,6.63,5.36,12,11.96,12h19.93v8h-19.93c-11.01,0-19.93-8.95-19.93-20v-20h7.97Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
-   <path d="M19.97,4v24h-7.97V4h7.97Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
-   <path d="M27.95,4h3.98c11.01,0,19.93,8.95,19.93,20v12H12v-8s31.9,0,31.9,0v-4c0-6.63-5.36-12-11.96-12h-3.98v-8Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path fill-rule="evenodd" clip-rule="evenodd" d="M63.3346 50L63.3346 46.6667C63.3346 41.1438 67.8118 36.6667 73.3347 36.6667L90.0013 36.6667L90.0013 30L73.3347 30C64.1299 30 56.668 37.4619 56.668 46.6667L56.668 50L63.3346 50Z" fill="white"/>
+   <path fill-rule="evenodd" clip-rule="evenodd" d="M83.3333 30L83.3333 46.6667C83.3333 52.1895 78.8562 56.6667 73.3333 56.6667L56.6667 56.6667L56.6667 63.3333L73.3333 63.3333C82.5381 63.3333 90 55.8714 90 46.6667L90 30L83.3333 30Z" fill="white"/>
+   <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6654 70L56.6654 73.3333C56.6654 78.8562 52.1882 83.3333 46.6653 83.3333L29.9987 83.3333L29.9987 90L46.6653 90C55.8701 90 63.332 82.5381 63.332 73.3333L63.332 70L56.6654 70Z" fill="white"/>
+   <path fill-rule="evenodd" clip-rule="evenodd" d="M36.6667 90L36.6667 73.3333C36.6667 67.8105 41.1438 63.3333 46.6667 63.3333L63.3333 63.3333L63.3333 56.6667L46.6667 56.6667C37.4619 56.6667 30 64.1286 30 73.3333L30 90L36.6667 90Z" fill="white"/>
 </svg>
