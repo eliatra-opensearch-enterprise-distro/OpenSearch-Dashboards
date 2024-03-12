@@ -43,7 +43,7 @@ export const InfoComponent = () => {
           githubLink: (
             <EuiLink
               external
-              href="https://github.com/opensearch-project/OpenSearch-Dashboards/issues/new/choose"
+              href="https://github.com/eliatra-opensearch-enterprise-distro/OpenSearch-Dashboards/issues/new"
               target="_blank"
             >
               GitHub

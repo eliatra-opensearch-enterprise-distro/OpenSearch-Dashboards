@@ -28,5 +28,5 @@
  * under the License.
  */
 
-export const OPENSEARCH_DASHBOARDS_ASK_OPENSEARCH_LINK = 'https://www.eliatra.com';
-export const GITHUB_CREATE_ISSUE_LINK = 'https://www.eliatra.com';
+export const OPENSEARCH_DASHBOARDS_ASK_OPENSEARCH_LINK = 'https://forum.eliatra.com';
+export const GITHUB_CREATE_ISSUE_LINK = 'https://github.com/eliatra-opensearch-enterprise-distro/OpenSearch-Dashboards/issues/new';

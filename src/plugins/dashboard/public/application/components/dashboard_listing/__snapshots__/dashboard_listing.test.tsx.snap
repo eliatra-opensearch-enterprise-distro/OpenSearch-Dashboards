@@ -810,7 +810,7 @@ exports[`dashboard listing hideWriteControls 1`] = `
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://www.eliatra.com",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -1902,7 +1902,7 @@ exports[`dashboard listing render table listing with initial filters from URL 1`
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://www.eliatra.com",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -3055,7 +3055,7 @@ exports[`dashboard listing renders call to action when no dashboards exist 1`] =
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://www.eliatra.com",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -4208,7 +4208,7 @@ exports[`dashboard listing renders table rows 1`] = `
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://www.eliatra.com",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -5361,7 +5361,7 @@ exports[`dashboard listing renders warning when listingLimit is exceeded 1`] = `
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://www.eliatra.com",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",

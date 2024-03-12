@@ -38,7 +38,7 @@ describe('DocLinksService#start()', () => {
     const service = new DocLinksService();
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('test-branch');
-    expect(api.links.opensearchDashboards.introduction).toEqual('https://www.eliatra.com');
+    expect(api.links.opensearchDashboards.introduction).toEqual('https://eliatra.com/docs/test-branch/dashboards/index/');
   });
 
   it('templates the doc links with the main branch from injectedMetadata', () => {
@@ -47,7 +47,7 @@ describe('DocLinksService#start()', () => {
     const service = new DocLinksService();
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('latest');
-    expect(api.links.opensearchDashboards.introduction).toEqual('https://www.eliatra.com');
+    expect(api.links.opensearchDashboards.introduction).toEqual('https://eliatra.com/docs/latest/dashboards/index/');
   });
 
   it('templates the doc links with the release branch from injectedMetadata', () => {
@@ -56,7 +56,7 @@ describe('DocLinksService#start()', () => {
     const service = new DocLinksService();
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('1.1');
-    expect(api.links.opensearchDashboards.introduction).toEqual('https://www.eliatra.com');
+    expect(api.links.opensearchDashboards.introduction).toEqual('https://eliatra.com/docs/1.1/dashboards/index/');
   });
 
   it('templates the doc links with the build version from injectedMetadata', () => {
@@ -66,6 +66,6 @@ describe('DocLinksService#start()', () => {
     const service = new DocLinksService();
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('1.1');
-    expect(api.links.opensearchDashboards.introduction).toEqual('https://www.eliatra.com');
+    expect(api.links.opensearchDashboards.introduction).toEqual('https://eliatra.com/docs/1.1/dashboards/index/');
   });
 });
