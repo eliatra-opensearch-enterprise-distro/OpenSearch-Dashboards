@@ -79,7 +79,7 @@ export const config = {
         defaultValue: '/',
       }),
       applicationTitle: schema.string({
-        defaultValue: 'Eliatra OpenSearch Enterprise Distro',
+        defaultValue: 'Eliatra OpenSearch Distro',
       }),
       useExpandedHeader: schema.boolean({
         defaultValue: true,

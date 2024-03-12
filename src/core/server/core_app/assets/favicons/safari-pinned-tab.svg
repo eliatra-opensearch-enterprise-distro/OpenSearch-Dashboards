@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="uuid-548c0309-8738-4576-b2c8-a948372eddde" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 564.93 564.93"><path d="M564.93,0v94.15c0,260-210.77,470.77-470.77,470.77H0v-188.31h94.15c156,0,282.46-126.46,282.46-282.46V0h188.31Z" style="fill-rule:evenodd; stroke-width:0px;"/></svg>
+<svg width="700" height="700" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="120" height="120" fill="#00796B"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M64 48L64 44C64 37.3726 69.3726 32 76 32L96 32L96 24L76 24C64.9543 24 56 32.9543 56 44L56 48L64 48Z" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M88 24L88 44C88 50.6274 82.6274 56 76 56L56 56L56 64L76 64C87.0457 64 96 55.0457 96 44L96 24L88 24Z" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M56 72L56 76C56 82.6274 50.6274 88 44 88L24 88L24 96L44 96C55.0457 96 64 87.0457 64 76L64 72L56 72Z" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M32 96L32 76C32 69.3726 37.3726 64 44 64L64 64L64 56L44 56C32.9543 56 24 64.9543 24 76L24 96L32 96Z" fill="white"/>
+</svg>
