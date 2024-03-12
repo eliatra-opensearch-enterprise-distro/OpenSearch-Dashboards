@@ -45,7 +45,7 @@ export class DocLinksService {
       injectedMetadata.getOpenSearchDashboardsBranch() === 'main'
         ? 'latest'
         : injectedMetadata.getOpenSearchDashboardsBranch();
-    const OPENSEARCH_WEBSITE_URL = 'https://opensearch.org/';
+    const OPENSEARCH_WEBSITE_URL = 'https://eliatra.com/';
     const OPENSEARCH_WEBSITE_DOCS = `${OPENSEARCH_WEBSITE_URL}docs/${DOC_LINK_VERSION}`;
     const OPENSEARCH_VERSIONED_DOCS = `${OPENSEARCH_WEBSITE_DOCS}/opensearch/`;
     const OPENSEARCH_DASHBOARDS_VERSIONED_DOCS = `${OPENSEARCH_WEBSITE_DOCS}/dashboards/`;
@@ -344,7 +344,8 @@ export class DocLinksService {
           dateMath: `${OPENSEARCH_VERSIONED_DOCS}supported-field-types/date/#date-math`,
         },
         opensearchDashboards: {
-          introduction: 'https://www.eliatra.com',
+          // https://opensearch.org/docs/latest/dashboards/index/
+          introduction: `${OPENSEARCH_DASHBOARDS_VERSIONED_DOCS}index/`,
           installation: {
             // https://opensearch.org/docs/latest/dashboards/install/index/
             base: `${OPENSEARCH_DASHBOARDS_VERSIONED_DOCS}install/index/`,

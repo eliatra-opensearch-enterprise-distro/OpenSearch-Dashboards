@@ -165,7 +165,7 @@ class HeaderHelpMenuUI extends Component<Props, State> {
   }
 
   createGithubUrl = (labels: string[], title?: string) => {
-    const url = new URL('https://www.eliatra.com.pl?');
+    const url = new URL('https://github.com/eliatra-opensearch-enterprise-distro/OpenSearch-Dashboards/issues/new?');
 
     /**
     if (labels.length) {
