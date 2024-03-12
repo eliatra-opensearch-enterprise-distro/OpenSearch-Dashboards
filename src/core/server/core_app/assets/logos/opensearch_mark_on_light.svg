@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-    <path d="M33.78,26.67v-1.78c0-2.95,2.39-5.33,5.33-5.33h8.89v-3.56h-8.89c-4.91,0-8.89,3.98-8.89,8.89v1.78h3.56Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
-    <path d="M44.44,16v8.89c0,2.95-2.39,5.33-5.33,5.33h-8.89v3.56h8.89c4.91,0,8.89-3.98,8.89-8.89v-8.89h-3.56Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
-    <path d="M30.22,37.33v1.78c0,2.95-2.39,5.33-5.33,5.33h-8.89v3.56h8.89c4.91,0,8.89-3.98,8.89-8.89v-1.78h-3.56Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
-    <path d="M19.56,48v-8.89c0-2.95,2.39-5.33,5.33-5.33h8.89v-3.56h-8.89c-4.91,0-8.89,3.98-8.89,8.89v8.89h3.56Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M35.02,22.94v-3.02c0-5.01,4.06-9.06,9.06-9.06h15.11v-6.05h-15.11c-8.34,0-15.11,6.76-15.11,15.11v3.02s6.05,0,6.05,0Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M53.14,4.81v15.11c0,5.01-4.06,9.06-9.06,9.06h-15.11v6.05h15.11c8.34,0,15.11-6.76,15.11-15.11V4.81s-6.05,0-6.05,0Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M28.98,41.06v3.02c0,5.01-4.06,9.06-9.06,9.06H4.81v6.05h15.11c8.34,0,15.11-6.76,15.11-15.11v-3.02s-6.05,0-6.05,0Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M10.86,59.19v-15.11c0-5.01,4.06-9.06,9.06-9.06h15.11v-6.05h-15.11c-8.34,0-15.11,6.76-15.11,15.11v15.11h6.05Z" style="fill: #00796b; fill-rule: evenodd; stroke-width: 0px;"/>
 </svg>
