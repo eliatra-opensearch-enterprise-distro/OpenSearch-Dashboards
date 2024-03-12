@@ -42,7 +42,7 @@ export const CreateNoticeFile: Task = {
     log.info('Generating notice from source');
     log.indent(4);
     const noticeFromSource = await generateNoticeFromSource({
-      productName: 'Eliatra OpenSearch Enterprise Distro (https://eliatra.com/)',
+      productName: 'Eliatra OpenSearch Distro (https://eliatra.com/)',
       directory: build.resolvePath(),
       log,
     });

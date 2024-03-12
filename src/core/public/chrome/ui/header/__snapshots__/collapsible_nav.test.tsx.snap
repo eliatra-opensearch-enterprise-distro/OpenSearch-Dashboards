@@ -199,7 +199,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "discover",
@@ -255,7 +255,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "visualize",
@@ -269,7 +269,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "dashboard",
@@ -824,7 +824,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
               isCollapsible={true}
               key="opensearchDashboards"
               onToggle={[Function]}
-              title="OpenSearch Dashboards"
+              title="Eliatra OpenSearch Distro"
             >
               <EuiAccordion
                 arrowDisplay="right"
@@ -851,7 +851,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
                           className="euiCollapsibleNavGroup__title"
                           id="mockId__title"
                         >
-                          OpenSearch Dashboards
+                          Eliatra OpenSearch Distro
                         </h3>
                       </EuiTitle>
                     </EuiFlexItem>
@@ -938,7 +938,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
                                     className="euiTitle euiTitle--xxsmall euiCollapsibleNavGroup__title"
                                     id="mockId__title"
                                   >
-                                    OpenSearch Dashboards
+                                    Eliatra OpenSearch Distro
                                   </h3>
                                 </EuiTitle>
                               </div>
@@ -966,7 +966,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
                             className="euiCollapsibleNavGroup__children"
                           >
                             <EuiListGroup
-                              aria-label="Primary navigation links, OpenSearch Dashboards"
+                              aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                               color="subdued"
                               gutterSize="none"
                               listItems={
@@ -1001,7 +1001,7 @@ exports[`CollapsibleNav renders links grouped by category 1`] = `
                               size="s"
                             >
                               <ul
-                                aria-label="Primary navigation links, OpenSearch Dashboards"
+                                aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                                 className="euiListGroup"
                                 style={
                                   Object {
@@ -3369,7 +3369,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in dark mode 1`
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "discover",
@@ -3758,7 +3758,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in dark mode 1`
               isCollapsible={true}
               key="opensearchDashboards"
               onToggle={[Function]}
-              title="OpenSearch Dashboards"
+              title="Eliatra OpenSearch Distro"
             >
               <EuiAccordion
                 arrowDisplay="right"
@@ -3785,7 +3785,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in dark mode 1`
                           className="euiCollapsibleNavGroup__title"
                           id="mockId__title"
                         >
-                          OpenSearch Dashboards
+                          Eliatra OpenSearch Distro
                         </h3>
                       </EuiTitle>
                     </EuiFlexItem>
@@ -3872,7 +3872,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in dark mode 1`
                                     className="euiTitle euiTitle--xxsmall euiCollapsibleNavGroup__title"
                                     id="mockId__title"
                                   >
-                                    OpenSearch Dashboards
+                                    Eliatra OpenSearch Distro
                                   </h3>
                                 </EuiTitle>
                               </div>
@@ -3900,7 +3900,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in dark mode 1`
                             className="euiCollapsibleNavGroup__children"
                           >
                             <EuiListGroup
-                              aria-label="Primary navigation links, OpenSearch Dashboards"
+                              aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                               color="subdued"
                               gutterSize="none"
                               listItems={
@@ -3919,7 +3919,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in dark mode 1`
                               size="s"
                             >
                               <ul
-                                aria-label="Primary navigation links, OpenSearch Dashboards"
+                                aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                                 className="euiListGroup"
                                 style={
                                   Object {
@@ -4488,7 +4488,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in default mode
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "discover",
@@ -4877,7 +4877,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in default mode
               isCollapsible={true}
               key="opensearchDashboards"
               onToggle={[Function]}
-              title="OpenSearch Dashboards"
+              title="Eliatra OpenSearch Distro"
             >
               <EuiAccordion
                 arrowDisplay="right"
@@ -4904,7 +4904,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in default mode
                           className="euiCollapsibleNavGroup__title"
                           id="mockId__title"
                         >
-                          OpenSearch Dashboards
+                          Eliatra OpenSearch Distro
                         </h3>
                       </EuiTitle>
                     </EuiFlexItem>
@@ -4991,7 +4991,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in default mode
                                     className="euiTitle euiTitle--xxsmall euiCollapsibleNavGroup__title"
                                     id="mockId__title"
                                   >
-                                    OpenSearch Dashboards
+                                    Eliatra OpenSearch Distro
                                   </h3>
                                 </EuiTitle>
                               </div>
@@ -5019,7 +5019,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in default mode
                             className="euiCollapsibleNavGroup__children"
                           >
                             <EuiListGroup
-                              aria-label="Primary navigation links, OpenSearch Dashboards"
+                              aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                               color="subdued"
                               gutterSize="none"
                               listItems={
@@ -5038,7 +5038,7 @@ exports[`CollapsibleNav with custom branding renders the nav bar in default mode
                               size="s"
                             >
                               <ul
-                                aria-label="Primary navigation links, OpenSearch Dashboards"
+                                aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                                 className="euiListGroup"
                                 style={
                                   Object {
@@ -5600,7 +5600,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in dark mode
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "discover",
@@ -5989,7 +5989,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in dark mode
               isCollapsible={true}
               key="opensearchDashboards"
               onToggle={[Function]}
-              title="OpenSearch Dashboards"
+              title="Eliatra OpenSearch Distro"
             >
               <EuiAccordion
                 arrowDisplay="right"
@@ -6016,7 +6016,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in dark mode
                           className="euiCollapsibleNavGroup__title"
                           id="mockId__title"
                         >
-                          OpenSearch Dashboards
+                          Eliatra OpenSearch Distro
                         </h3>
                       </EuiTitle>
                     </EuiFlexItem>
@@ -6103,7 +6103,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in dark mode
                                     className="euiTitle euiTitle--xxsmall euiCollapsibleNavGroup__title"
                                     id="mockId__title"
                                   >
-                                    OpenSearch Dashboards
+                                    Eliatra OpenSearch Distro
                                   </h3>
                                 </EuiTitle>
                               </div>
@@ -6131,7 +6131,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in dark mode
                             className="euiCollapsibleNavGroup__children"
                           >
                             <EuiListGroup
-                              aria-label="Primary navigation links, OpenSearch Dashboards"
+                              aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                               color="subdued"
                               gutterSize="none"
                               listItems={
@@ -6150,7 +6150,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in dark mode
                               size="s"
                             >
                               <ul
-                                aria-label="Primary navigation links, OpenSearch Dashboards"
+                                aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                                 className="euiListGroup"
                                 style={
                                   Object {
@@ -6708,7 +6708,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in default m
           "category": Object {
             "euiIconType": "inputOutput",
             "id": "opensearchDashboards",
-            "label": "OpenSearch Dashboards",
+            "label": "Eliatra OpenSearch Distro",
             "order": 1000,
           },
           "data-test-subj": "discover",
@@ -7097,7 +7097,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in default m
               isCollapsible={true}
               key="opensearchDashboards"
               onToggle={[Function]}
-              title="OpenSearch Dashboards"
+              title="Eliatra OpenSearch Distro"
             >
               <EuiAccordion
                 arrowDisplay="right"
@@ -7124,7 +7124,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in default m
                           className="euiCollapsibleNavGroup__title"
                           id="mockId__title"
                         >
-                          OpenSearch Dashboards
+                          Eliatra OpenSearch Distro
                         </h3>
                       </EuiTitle>
                     </EuiFlexItem>
@@ -7211,7 +7211,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in default m
                                     className="euiTitle euiTitle--xxsmall euiCollapsibleNavGroup__title"
                                     id="mockId__title"
                                   >
-                                    OpenSearch Dashboards
+                                    Eliatra OpenSearch Distro
                                   </h3>
                                 </EuiTitle>
                               </div>
@@ -7239,7 +7239,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in default m
                             className="euiCollapsibleNavGroup__children"
                           >
                             <EuiListGroup
-                              aria-label="Primary navigation links, OpenSearch Dashboards"
+                              aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                               color="subdued"
                               gutterSize="none"
                               listItems={
@@ -7258,7 +7258,7 @@ exports[`CollapsibleNav without custom branding renders the nav bar in default m
                               size="s"
                             >
                               <ul
-                                aria-label="Primary navigation links, OpenSearch Dashboards"
+                                aria-label="Primary navigation links, Eliatra OpenSearch Distro"
                                 className="euiListGroup"
                                 style={
                                   Object {
