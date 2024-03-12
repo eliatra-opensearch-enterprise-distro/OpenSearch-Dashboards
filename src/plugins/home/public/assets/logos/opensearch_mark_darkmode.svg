@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="32" width="32">
-  <path d="M19.97,20v20c0,6.63,5.36,12,11.96,12h19.93v8h-19.93c-11.01,0-19.93-8.95-19.93-20v-20h7.97Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
-  <path d="M19.97,4v24h-7.97V4h7.97Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
-  <path d="M27.95,4h3.98c11.01,0,19.93,8.95,19.93,20v12H12v-8s31.9,0,31.9,0v-4c0-6.63-5.36-12-11.96-12h-3.98v-8Z" style="fill:#00796b; fill-rule:evenodd; stroke-width:0px;" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" width="64">
+    <path d="M33.78,26.67v-1.78c0-2.95,2.39-5.33,5.33-5.33h8.89v-3.56h-8.89c-4.91,0-8.89,3.98-8.89,8.89v1.78h3.56Z" style="fill: white; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M44.44,16v8.89c0,2.95-2.39,5.33-5.33,5.33h-8.89v3.56h8.89c4.91,0,8.89-3.98,8.89-8.89v-8.89h-3.56Z" style="fill: white; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M30.22,37.33v1.78c0,2.95-2.39,5.33-5.33,5.33h-8.89v3.56h8.89c4.91,0,8.89-3.98,8.89-8.89v-1.78h-3.56Z" style="fill: white; fill-rule: evenodd; stroke-width: 0px;"/>
+    <path d="M19.56,48v-8.89c0-2.95,2.39-5.33,5.33-5.33h8.89v-3.56h-8.89c-4.91,0-8.89,3.98-8.89,8.89v8.89h3.56Z" style="fill: white; fill-rule: evenodd; stroke-width: 0px;"/>
 </svg>
