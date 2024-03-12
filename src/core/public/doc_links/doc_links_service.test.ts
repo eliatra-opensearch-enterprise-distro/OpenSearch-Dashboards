@@ -39,7 +39,7 @@ describe('DocLinksService#start()', () => {
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('test-branch');
     expect(api.links.opensearchDashboards.introduction).toEqual(
-      'https://opensearch.org/docs/test-branch/dashboards/index/'
+      'https://eliatra.com/docs/test-branch/dashboards/index/'
     );
   });
 
@@ -50,7 +50,7 @@ describe('DocLinksService#start()', () => {
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('latest');
     expect(api.links.opensearchDashboards.introduction).toEqual(
-      'https://opensearch.org/docs/latest/dashboards/index/'
+      'https://eliatra.com/docs/latest/dashboards/index/'
     );
   });
 
@@ -61,7 +61,7 @@ describe('DocLinksService#start()', () => {
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('1.1');
     expect(api.links.opensearchDashboards.introduction).toEqual(
-      'https://opensearch.org/docs/1.1/dashboards/index/'
+      'https://eliatra.com/docs/1.1/dashboards/index/'
     );
   });
 
@@ -73,7 +73,7 @@ describe('DocLinksService#start()', () => {
     const api = service.start({ injectedMetadata });
     expect(api.DOC_LINK_VERSION).toEqual('1.1');
     expect(api.links.opensearchDashboards.introduction).toEqual(
-      'https://opensearch.org/docs/1.1/dashboards/index/'
+      'https://eliatra.com/docs/1.1/dashboards/index/'
     );
   });
 });

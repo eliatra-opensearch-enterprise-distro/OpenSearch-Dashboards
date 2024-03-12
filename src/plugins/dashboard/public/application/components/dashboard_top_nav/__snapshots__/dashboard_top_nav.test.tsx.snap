@@ -702,7 +702,7 @@ exports[`Dashboard top nav render in embed mode 1`] = `
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://opensearch.org/docs/mocked-test-branch/dashboards/index/",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -1619,7 +1619,7 @@ exports[`Dashboard top nav render in embed mode, and force hide filter bar 1`] =
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://opensearch.org/docs/mocked-test-branch/dashboards/index/",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -2536,7 +2536,7 @@ exports[`Dashboard top nav render in embed mode, components can be forced show b
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://opensearch.org/docs/mocked-test-branch/dashboards/index/",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -3453,7 +3453,7 @@ exports[`Dashboard top nav render in full screen mode with appended URL param bu
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://opensearch.org/docs/mocked-test-branch/dashboards/index/",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -4370,7 +4370,7 @@ exports[`Dashboard top nav render in full screen mode, no componenets should be 
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://opensearch.org/docs/mocked-test-branch/dashboards/index/",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",
@@ -5287,7 +5287,7 @@ exports[`Dashboard top nav render with all components 1`] = `
                     "tar": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tar/",
                     "tls": "https://opensearch.org/docs/mocked-test-branch/dashboards/install/tls/",
                   },
-                  "introduction": "https://opensearch.org/docs/mocked-test-branch/dashboards/index/",
+                  "introduction": "https://eliatra.com/docs/mocked-test-branch/dashboards/index/",
                   "mapTiles": "https://opensearch.org/docs/mocked-test-branch/dashboards/maptiles",
                   "notebooks": Object {
                     "base": "https://opensearch.org/docs/mocked-test-branch/dashboards/notebooks",

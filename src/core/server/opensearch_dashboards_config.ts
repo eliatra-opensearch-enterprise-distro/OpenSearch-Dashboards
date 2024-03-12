@@ -79,7 +79,7 @@ export const config = {
         defaultValue: '/',
       }),
       applicationTitle: schema.string({
-        defaultValue: '',
+        defaultValue: 'Eliatra OpenSearch Distro',
       }),
       useExpandedHeader: schema.boolean({
         defaultValue: true,
@@ -87,7 +87,7 @@ export const config = {
     }),
     survey: schema.object({
       url: schema.string({
-        defaultValue: 'https://survey.opensearch.org',
+        defaultValue: 'https://www.eliatra.com',
       }),
     }),
   }),

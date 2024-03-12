@@ -58,7 +58,7 @@ export class DocLinksService {
       }
     }
     const DOC_LINK_VERSION = branch;
-    const OPENSEARCH_WEBSITE_URL = 'https://opensearch.org/';
+    const OPENSEARCH_WEBSITE_URL = 'https://eliatra.com/';
     const OPENSEARCH_WEBSITE_DOCS = `${OPENSEARCH_WEBSITE_URL}docs/${DOC_LINK_VERSION}`;
     const OPENSEARCH_VERSIONED_DOCS = `${OPENSEARCH_WEBSITE_DOCS}/opensearch/`;
     const OPENSEARCH_DASHBOARDS_VERSIONED_DOCS = `${OPENSEARCH_WEBSITE_DOCS}/dashboards/`;
@@ -366,7 +366,6 @@ export class DocLinksService {
             'https://forum.opensearch.org/t/feedback-experimental-feature-connect-to-external-data-sources/11144',
         },
         opensearchDashboards: {
-          // https://opensearch.org/docs/latest/dashboards/index/
           introduction: `${OPENSEARCH_DASHBOARDS_VERSIONED_DOCS}index/`,
           installation: {
             // https://opensearch.org/docs/latest/dashboards/install/index/
