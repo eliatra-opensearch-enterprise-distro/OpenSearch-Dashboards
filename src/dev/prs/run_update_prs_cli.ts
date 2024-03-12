@@ -43,7 +43,8 @@ import { getLine$ } from './helpers';
 import { Pr } from './pr';
 import { GithubApi } from './github_api';
 
-const UPSTREAM_URL = 'git@github.com:opensearch-project/OpenSearch-Dashboards.git';
+const UPSTREAM_URL =
+  'git@github.com:eliatra-opensearch-enterprise-distro/OpenSearch-Dashboards.git';
 
 run(
   async ({ flags, log }) => {

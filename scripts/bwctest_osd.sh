@@ -62,7 +62,7 @@ while getopts ":h:b:p:s:c:v:r:o:d:" arg; do
             ;;
         p)
             BIND_PORT=$OPTARG
-            ;;    
+            ;;
         s)
             SECURITY_ENABLED=$OPTARG
             ;;
@@ -77,10 +77,10 @@ while getopts ":h:b:p:s:c:v:r:o:d:" arg; do
             ;;
         o)
             OPENSEARCH=$OPTARG
-            ;;    
+            ;;
         d)
             DASHBOARDS=$OPTARG
-            ;;     
+            ;;
         :)
             echo "-${OPTARG} requires an argument"
             usage
@@ -108,7 +108,7 @@ test_dir="$dir/test"
 opensearch_dir="$dir/opensearch"
 dashboards_dir="$dir/opensearch-dashboards"
 if [ -d "$dir" ]; then
-  echo "Temporary directory exists. Removing."   
+  echo "Temporary directory exists. Removing."
   rm -rf "$dir"
 fi
 mkdir "$dir"
@@ -120,7 +120,7 @@ function open_artifact {
   artifact_dir=$1
   artifact=$2
   cd $artifact_dir
-  
+
   # check if artifact provided is URL or attempt if passing by absolute path
   if wget -q --method=HEAD $artifact; then
     wget -c $artifact -O - | tar -xz --strip-components=1
@@ -142,12 +142,12 @@ opensearch_path="$dir/$opensearch_file"
 dashboards_path="$dir/$dashboards_file"
 dashboards_msg="\"state\":\"green\",\"title\":\"Green\",\"nickname\":\"Looking good\",\"icon\":\"success\""
 dashboards_url="http://$BIND_ADDRESS:$BIND_PORT/api/status"
-if [ $SECURITY_ENABLED == "false" ]; 
-then 
+if [ $SECURITY_ENABLED == "false" ];
+then
   opensearch_msg="\"status\":\"green\""
   opensearch_url="http://$BIND_ADDRESS:9200/_cluster/health"
   opensearch_args=""
-else 
+else
   opensearch_msg="\"status\":\"yellow\""
   opensearch_url="https://$BIND_ADDRESS:9200/_cluster/health"
   opensearch_args="-u $CREDENTIAL --insecure"
@@ -156,8 +156,8 @@ fi
 # define test groups to test suites
 declare -A test_suites
 test_suites=(
-  ["odfe-0.10.0"]=$TEST_GROUP_1 
-  ["odfe-1.0.2"]=$TEST_GROUP_2 
+  ["odfe-0.10.0"]=$TEST_GROUP_1
+  ["odfe-1.0.2"]=$TEST_GROUP_2
   ["odfe-1.1.0"]=$TEST_GROUP_2
   ["odfe-1.2.1"]=$TEST_GROUP_2
   ["odfe-1.3.0"]=$TEST_GROUP_2
@@ -189,13 +189,13 @@ function print_txt {
 }
 
 # this function is used to check the running status of OpenSearch or OpenSearch Dashboards
-# $1 is the path to the tmp file which saves the running status 
+# $1 is the path to the tmp file which saves the running status
 # $2 is the error msg to check
 # $3 is the url to curl
 # $4 contains arguments that need to be passed to the curl command
 function check_status {
-  while [ ! -f $1 ] || ! grep -q "$2" $1; do 
-     if [ -f $1 ]; then rm $1; fi  
+  while [ ! -f $1 ] || ! grep -q "$2" $1; do
+     if [ -f $1 ]; then rm $1; fi
      curl $3 $4 > $1 || true
   done
   rm $1
@@ -203,11 +203,11 @@ function check_status {
 
 # this function sets up the cypress env
 # it first clones the opensearch-dashboards-functional-test library
-# then it removes the tests into the cypress integration folder 
+# then it removes the tests into the cypress integration folder
 # and copies the backwards compatibility tests into the folder
 function setup_cypress {
   echo "[ Setup the cypress test environment ]"
-  git clone https://github.com/opensearch-project/opensearch-dashboards-functional-test "$test_dir"
+  git clone https://github.com/eliatra-opensearch-enterprise-distro/opensearch-dashboards-functional-test "$test_dir"
   rm -rf "$test_dir/cypress/integration"
   cp -r "$cwd/cypress/integration" "$test_dir/cypress"
   cd "$test_dir"
@@ -220,7 +220,7 @@ function setup_cypress {
 function upload_data {
   rm -rf "$opensearch_dir/data"
   cd $opensearch_dir
-  cp "$cwd/cypress/test-data/$dashboards_type/$1.tar.gz" . 
+  cp "$cwd/cypress/test-data/$dashboards_type/$1.tar.gz" .
   tar -xvf "$opensearch_dir/$1.tar.gz" >> /dev/null 2>&1
   rm "$1.tar.gz"
   echo "Data has been uploaded and ready to test"
@@ -238,7 +238,7 @@ function run_dashboards {
   echo "[ Attempting to start OpenSearch Dashboards... ]"
   cd "$dashboards_dir"
   [ $SECURITY_ENABLED == "false" ] && rm config/opensearch_dashboards.yml && touch config/opensearch_dashboards.yml
-  ./bin/opensearch-dashboards 
+  ./bin/opensearch-dashboards
 }
 
 # Checks the running status of OpenSearch
@@ -248,8 +248,8 @@ function check_opensearch_status {
   echo "Checking the status OpenSearch..."
   cd "$dir"
   check_status $opensearch_path "$opensearch_msg" $opensearch_url "$opensearch_args" >> /dev/null 2>&1
-  echo "OpenSearch is up!" 
-} 
+  echo "OpenSearch is up!"
+}
 
 # Checks the running status of OpenSearch Dashboards
 # it calls check_status and passes the OpenSearch Dashboards tmp file path, error msg, url, and arguments
@@ -259,10 +259,10 @@ function check_dashboards_status {
   cd "$dir"
   check_status $dashboards_path "$dashboards_msg" $dashboards_url "" >> /dev/null 2>&1
   echo "OpenSearch Dashboards is up!"
-} 
+}
 
 # Runs the backwards compatibility test using cypress for the required version
-# $1 is the requested version 
+# $1 is the requested version
 function run_bwc {
   cd "$test_dir"
   [ -z "${test_suites[$1]}" ] && test_suite=$TEST_GROUP_DEFAULT || test_suite="${test_suites[$1]}"
@@ -289,18 +289,18 @@ function execute_tests {
     # copy and un-tar data into the OpenSearch data folder
     echo "[ Setting up the OpenSearch environment for $version ]"
     upload_data $version
-    
-    run_opensearch >> /dev/null 2>&1  &  
+
+    run_opensearch >> /dev/null 2>&1  &
     check_opensearch_status
-    run_dashboards >> /dev/null 2>&1 & 
+    run_dashboards >> /dev/null 2>&1 &
     check_dashboards_status
-    
+
     echo "[ Run the backwards compatibility tests for $version ]"
     run_bwc $version
-  
+
     # kill the running OpenSearch process
     clean
-  done  
+  done
 }
 
 # Executes the main function with different versions of OpenSearch downloaded
@@ -323,7 +323,7 @@ function execute_mismatch_tests {
     execute_tests
   done
 }
- 
+
 # setup the cypress test env
 setup_cypress
 execute_tests

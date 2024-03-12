@@ -100,7 +100,7 @@ jobs:
           git config --global core.autocrlf false
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup JDK
         uses: actions/setup-java@v3
@@ -169,13 +169,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Run functional tests on Linux
     strategy:
+      fail-fast: false
       matrix:
         group: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
     steps:
       - run: echo Running functional tests for ciGroup${{ matrix.group }}
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -241,6 +242,7 @@ jobs:
     runs-on: windows-latest
     name: Run functional tests on Windows
     strategy:
+      fail-fast: false
       matrix:
         group: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
     defaults:
@@ -254,7 +256,7 @@ jobs:
           git config --global core.autocrlf false
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup JDK
         uses: actions/setup-java@v3
@@ -334,6 +336,7 @@ jobs:
       run:
         working-directory: ./artifacts
     strategy:
+      fail-fast: false
       matrix:
         include:
           - name: Linux x64
@@ -346,7 +349,7 @@ jobs:
             script: build-platform --linux-arm --skip-os-packages
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: ./artifacts
 
@@ -401,6 +404,7 @@ jobs:
       run:
         working-directory: artifacts
     strategy:
+      fail-fast: false
       matrix:
         include:
           - name: Windows x64
@@ -414,7 +418,7 @@ jobs:
         working-directory: .
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: artifacts
 
