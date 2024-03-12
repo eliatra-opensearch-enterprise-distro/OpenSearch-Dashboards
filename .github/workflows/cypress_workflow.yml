@@ -12,7 +12,7 @@ on:
     inputs:
       test_repo:
         description: 'Cypress test repo'
-        default: 'opensearch-project/opensearch-dashboards-functional-test'
+        default: 'eliatra-opensearch-enterprise-distro/opensearch-dashboards-functional-test'
         required: true
         type: string
       test_branch:
@@ -29,7 +29,7 @@ on:
         type: number
 
 env:
-  TEST_REPO: ${{ inputs.test_repo != '' && inputs.test_repo || 'opensearch-project/opensearch-dashboards-functional-test' }}
+  TEST_REPO: ${{ inputs.test_repo != '' && inputs.test_repo || 'eliatra-opensearch-enterprise-distro/opensearch-dashboards-functional-test' }}
   TEST_BRANCH: "${{ inputs.test_branch != '' && inputs.test_branch || github.base_ref }}"
   FTR_PATH: 'ftr'
   CYPRESS_BROWSER: 'chromium'

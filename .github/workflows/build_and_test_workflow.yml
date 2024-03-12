@@ -62,7 +62,7 @@ jobs:
           disk-root: "C:"
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup JDK (Windows only)
         if: matrix.os == 'windows-latest'
@@ -203,7 +203,7 @@ jobs:
           disk-root: "C:"
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup JDK (Windows only)
         if: matrix.os == 'windows-latest'
@@ -319,7 +319,7 @@ jobs:
           disk-root: "C:"
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup JDK (Windows only)
         if: matrix.os == 'windows-latest'
@@ -404,6 +404,7 @@ jobs:
   build-min-artifact-tests:
     name: Build min release artifacts on ${{ matrix.name }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           - os: ubuntu-latest
@@ -451,7 +452,7 @@ jobs:
           disk-root: "C:"
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: ./artifacts
 
@@ -524,11 +525,12 @@ jobs:
       run:
         working-directory: ./artifacts
     strategy:
+      fail-fast: false
       matrix:
         version: [osd-2.0.0, osd-2.1.0, osd-2.2.0, osd-2.3.0, osd-2.4.0, osd-2.5.0, osd-2.6.0, osd-2.7.0, osd-2.8.0, osd-2.9.0]
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: ./artifacts
 
