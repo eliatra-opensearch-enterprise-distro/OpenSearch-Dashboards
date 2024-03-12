@@ -1,10 +1,10 @@
-# Eliatra OpenSearch Enterprise Distro (EOED) - Long Term Support for OpenSearch
+# Eliatra OpenSearch Distro (EOD) - Long Term Support for OpenSearch
 
-This repository is part of the Eliatra OpenSearch Enterprise Distro (EOED).
+This repository is part of the Eliatra OpenSearch Distro (EOD).
 
 ## Questions?
 
-Please refer to https://eliatra.com/opensearch-enterprise-distro or ask your questions in our [Forum](https://forum.eliatra.com).
+Please refer to https://eliatra.com/opensearch-distro or ask your questions in our [Forum](https://forum.eliatra.com).
 
 ## License
 

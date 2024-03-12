@@ -152,7 +152,7 @@ export const Overview: FC<Props> = ({ newsFetchResult, solutions, features, bran
         iconType="inputOutput"
         title={
           <FormattedMessage
-            defaultMessage="OpenSearch Dashboards"
+            defaultMessage="Eliatra OpenSearch Distro"
             id="opensearchDashboardsOverview.header.title"
           />
         }

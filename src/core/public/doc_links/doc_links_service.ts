@@ -45,7 +45,7 @@ export class DocLinksService {
       injectedMetadata.getOpenSearchDashboardsBranch() === 'main'
         ? 'latest'
         : injectedMetadata.getOpenSearchDashboardsBranch();
-    const OPENSEARCH_WEBSITE_URL = 'https://opensearch.org/';
+    const OPENSEARCH_WEBSITE_URL = 'https://eliatra.com/';
     const OPENSEARCH_WEBSITE_DOCS = `${OPENSEARCH_WEBSITE_URL}docs/${DOC_LINK_VERSION}`;
     const OPENSEARCH_VERSIONED_DOCS = `${OPENSEARCH_WEBSITE_DOCS}/opensearch/`;
     const OPENSEARCH_DASHBOARDS_VERSIONED_DOCS = `${OPENSEARCH_WEBSITE_DOCS}/dashboards/`;
