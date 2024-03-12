@@ -169,6 +169,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Run functional tests on Linux
     strategy:
+      fail-fast: false
       matrix:
         group: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
     steps:
@@ -241,6 +242,7 @@ jobs:
     runs-on: windows-latest
     name: Run functional tests on Windows
     strategy:
+      fail-fast: false
       matrix:
         group: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
     defaults:
