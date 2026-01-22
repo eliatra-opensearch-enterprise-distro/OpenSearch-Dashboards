@@ -222,7 +222,7 @@
     "js-yaml": "^3.14.0",
     "json-stable-stringify": "^1.0.1",
     "json-stringify-safe": "5.0.1",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "lru-cache": "^4.1.5",
     "lucene": "^2.1.1",
     "mathjs": "^11.8.2",
